@@ -61,7 +61,7 @@ column_value_replace:
     Health Care (Inpatient): Healthcare
     Health Care (Outpatient): Healthcare
     Stadium: Public Assembly
-  
+
 public_dataset_column_renaming:
   country: site_country
   region: site_region
@@ -163,7 +163,6 @@ buildings_metadata_impact_renaming:
   Ozone Depletion Potential: odp_a_to_c
   Non-renewable Energy Depletion: nred_a_to_c
 
-
 design_phases:
   - Construction
   - Construction Documents
@@ -180,20 +179,21 @@ rounding_map:
   bldg_sec_use_GFA: 0
 
 full_results_column_renaming:
-    MQ_1: mat_group
-    MQ_2: mat_type
-    Cat_Mat_1: mat_csi_division
-    Cat_Ele_1: omniclass_element
-    Service Life: service_life
-    Life Cycle Stage: life_cycle_stage
-    Mass Total (kg): inv_mass
-    Stored Biogenic Carbon: inv_stored_carbon
-    Global Warming Potential_Ebio: gwp
-    Acidification Potential: ap
-    Eutrophication Potential: ep
-    Smog Formation Potential: sfp
-    Ozone Depletion Potential: odp
-    Non-renewable Energy Depletion: nred
+  MQ_1: mat_group
+  MQ_2: mat_type
+  Cat_Mat_1: mat_csi_division
+  Cat_Ele_1: omniclass_element
+  Service Life: service_life
+  Life Cycle Stage: life_cycle_stage
+  Mass Total (kg): inv_mass
+  Stored Biogenic Carbon: inv_stored_carbon
+  Global Warming Potential_Ebio: gwp
+  Acidification Potential: ap
+  Eutrophication Potential: ep
+  Smog Formation Potential: sfp
+  Ozone Depletion Potential: odp
+  Non-renewable Energy Depletion: nred
+  Cat_Ele_3: element_category
 
 full_results_column_list:
   - project_index
@@ -201,13 +201,18 @@ full_results_column_list:
   - mat_group
   - mat_type
   - mat_csi_division
+  - element_category
   - tally_revit_building_element
   - tally_material_group
   - oneclick_omniclass
   - oneclick_resource_type
   - service_life
+  - R_value
+  - insulation_name
   - life_cycle_stage
   - inv_mass
+  - clf_b_mass
+  - modeled_geo_to_mass_ratio
   - inv_stored_carbon
   - gwp
   - ep
@@ -215,5 +220,7 @@ full_results_column_list:
   - sfp
   - odp
   - nred
+  - clf_b_gwp
+  - clf_b_gwp_insul_only
   - mui_gfa
   - mui_cfa

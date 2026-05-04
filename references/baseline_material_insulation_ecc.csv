@@ -1,0 +1,63 @@
+insulation_types,tool_density,tool_r_per_in,epd_r_per_in,epd_density,tool_to_epd_kg_factor,EPD GWP/m2-R1
+"Cellulose insulation, blown",40.0,3.43,3.6,22.5,0.5625,0.0858
+"Cellulose insulation, boards",80.0,3.61,3.7,56.183,0.7023,0.1291
+"Expanded polystyrene (EPS), board",24.0,3.6,3.6,15.0,0.625,0.4456
+"Fiberglass blanket insulation, paper faced",12.0,4.1,4.1,12.03,1.0025,0.1867
+"Fiberglass blanket insulation, unfaced",12.0,4.4,4.4,12.01,1.0008,0.1779
+"Glass fiber board, NAIMA - EPD",50.0,3.2,3.2,57.62,1.1524,0.8841
+"Glass wool kraft faced batt, Knauf, EcoBatt - EPD",7.4,4.1,4.1,12.03,1.6257,0.1867
+"Glass wool unfaced batt, Knauf, EcoBatt - EPD",7.4,4.4,4.4,12.01,1.623,0.1779
+"Mineral wool, high density, NAIMA - EPD",128.0,4.4,4.4,99.9,0.7805,1.2011
+"Mineral wool, Knauf, DDP - EPD",145.0,3.7,4.4,99.9,0.689,1.2011
+"Mineral wool, Knauf, ECOSE - EPD",11.5,3.61,4.1,12.03,1.0461,0.1867
+"Mineral wool, Knauf, TI 140 - EPD",14.0,3.61,4.1,12.03,0.8593,0.1867
+"Mineral wool, low density, NAIMA - EPD",40.0,3.9,3.9,38.3,0.9575,0.472
+"PIR rigid foam insulation, roof, R=10.2, PIMA - EPD",40.1,6.8,5.8,35.74,0.8913,0.4403
+"PIR rigid foam insulation, roof, R=15, PIMA - EPD",36.8,5.77,5.8,35.74,0.9712,0.4403
+"PIR rigid foam insulation, roof, R=20.5, PIMA - EPD",35.7,5.86,5.8,35.74,1.0011,0.4403
+"PIR rigid foam insulation, wall, R=14.6, PIMA - EPD",29.15,6.49,6.6,49.091,1.6841,0.6164
+"PIR rigid foam insulation, wall, R=19.5, PIMA - EPD",29.15,6.5,6.6,49.091,1.6841,0.6164
+"PIR rigid foam insulation, wall, R=4.9, PIMA - EPD",29.15,6.53,6.6,49.091,1.6841,0.6164
+"PIR rigid foam insulation, wall, R=9.8, PIMA - EPD",29.15,6.53,6.6,49.091,1.6841,0.6164
+"Spray polyurethane foam, closed cell (HFC blowing agent), SPFA - EPD",40.0,6.2,6.2,24.0,0.6,1.2557
+"Spray polyurethane foam, closed cell (HFO blowing agent), SPFA - EPD",40.0,6.2,6.2,24.0,0.6,0.4632
+"Spray polyurethane foam, closed cell roofing (HFO blowing agent), SPFA - EPD",53.0,6.2,6.2,40.0,0.7547,0.6816
+"Spray polyurethane foam, closed cell, 2K-LP (HFC blowing agent), SPFA - EPD",32.0,6.2,6.2,24.0,0.75,1.8246
+"Spray polyurethane foam, open cell, SPFA - EPD",9.6,3.6,3.6,8.0,0.8333,0.2061
+"XPS insulating sheathing, Foamular (R-4, 15 psi), Owens Corning - EPD",22.67,5.33,5.0,24.8,1.0941,7.2209
+"XPS insulation, Foamular 250, Owens Corning - EPD",24.83,5.0,5.0,24.8,0.9988,7.2209
+"XPS insulation, Foamular average, Owens Corning - EPD",26.98,5.0,5.0,24.8,0.9192,7.2209
+"Polyisocyanurate (PIR) roof insulation boards, glass fiber reinforced cellulosic faced (GRF), 0.846 kg/m2 (1.87 lb/m2), 25 mm (0.984 in) (Atlas Roofing Corporation, Carlisle Construction Materials, Firestone Building Products, GAF, IKO, Johns Manville, Rmax - A Sika Brand, Soprema, Inc. (USA))",33.84,5.77,5.8,35.74,1.0561,0.3716
+"Rock wool (mineral wool) insulation, unfaced, L = 0.031 W/mK, R =  1 m2K/W, 31mm, 1.86 kg/m2, 60 kg/m3, (Range: 51-65kg/m3), 22% slag content (One Click LCA)",60.0,4.65,4.4,99.9,1.665,1.2011
+"XPS insulation (extruded polystyrene), 1.02in",24.8,5.0,5.0,24.8,1.0,7.2209
+"Polyisocyanurate (PIR) roof insulation boards, coated glass faced (CGF), 0.941kg/m2 (2.07 lb/m2), 25 mm (0.984 in) (Atlas Roofing Corporation, Carlisle Construction Materials, Firestone Building Products, GAF, IKO, Johns Manville, Rmax - A Sika Brand, Soprema, Inc. (USA))",37.64,5.77,5.8,35.74,0.9495,0.5195
+"XPS insulation panels, L=0.033 W/mK, R=1.2 m2K/W, 40 mm, 1.25 kg/m2, 31.25 kg/m3, compressive strength 300 kPa, 40% recycled polystyrene, CO2 blowing agent, Lambda=0.033 W/(m.K) (One Click LCA)",31.25,4.37,5.0,28.83,0.9226,1.9197
+"XPS insulation board, R=1 m2K/W, L=0.0288 W/mK, 28.8 mm, 0.777 kg/m2, 26.98 kg/m3, FOAMULAR® NGX™ (Owens Corning)",26.98,5.01,5.0,24.8,0.9192,1.5675
+"Mineral wool insulation, loose, L = 0.048 W/mK, R= 1 m2K/W, 48 mm, 1.1kg/m2, 22.9 kg/m3 (Aislantes Minerales, Armstrong, Rockwool Group, Thermafiber, American Rockwool manufacturing, Industrail insulation Group, Rock Wool Manufacturing, USG Interior)",22.9,3.0,3.0,32.1,1.4017,0.3329
+"Insulation, glass wool board, 11.1ft2Fhr/Btu, 3in, 3-4 lb/ft3, Industry average US (NAIMA)",56.06,3.7,3.2,57.62,1.0278,0.8841
+"Fiberglass batt insulation, 9.65in",12.03,4.1,4.1,12.03,1.0,0.1867
+"Polyiso (PIR) insulation board, R5.68 / R = 1m2K/W, L = 0.025 W/mK , 0.98 in, 0.148 lbs/ft2 (Carlisle SynTec Systems)",32.86,5.79,5.8,35.74,1.0875,0.4403
+"EPS insulation, 1.02in",15.0,3.6,3.6,15.0,1.0,0.4456
+"Rock wool insulation panels, unfaced, generic, L = 0.037 W/mK, R = 2.70 m2K/W (15 ft2°Fh/BTU), 150 kg/m3 (9.36 lbs/ft3) (applicable for densities: 100-150 kg/m3 (6.24-9.36 lbs/ft3)), Lambda=0.037 W/(m.K)",150.0,3.9,4.4,99.9,0.666,1.2011
+"Rock wool insulation panels, unfaced, generic, L = 0.035 W/mK, R = 2.89 m2K/W (16 ft2°Fh/BTU), 50 kg/m3 (3.12 lbs/ft3) (applicable for densities: 25-50 kg/m3 (1.56-3.12 lbs/ft3)), Lambda=0.0346 W/(m.K)",50.0,4.12,3.9,38.3,0.766,0.472
+"Polyisocyanurate (PIR) insulation boards, high-density, 2.69kg/m2 (5.93lb/m2), 28.8mm (1.13in), 1m2K/W (5.678ft2°Fh/Btu), 92.76 kg/m3 (Atlas Roofing Corporation, Carlisle Construction Materials, Firestone Building Products, GAF, IKO, Johns Manville, Soprema, Inc. (USA))",92.76,5.02,4.0,142.365,1.5348,0.8417
+"XPS insulation board, (incl. A5 installation and B1 use phase impacts), R=1 m2K/W, L=0.0288 W/mK, 28.8 mm, 0.777 kg/m2, 26.98 kg/m3, FOAMULAR® NGX™ (Owens Corning)",26.98,5.01,5.0,24.8,0.9192,1.5675
+"EPS insulation, North American average, L=0.0401 W/mK, Rsi=1 m2K/W, 40.1 mm (1.58 in), 0.578 kg/m2 (EPS Industry Alliance)",14.41,3.59,3.6,15.0,1.0407,0.4456
+"PIR High-Density (HD) roof insulation boards, polymer-bonded coated glass faced (CGF), 28.8 mm (1.13 in), 2.48 kg/m2 (5.48 lb/m2), RSI = 1 m2·K/W (5.678 ft2·°F·h/Btu), XFP HD Polyiso (Weatherbond Roofing Systems)",86.11,5.02,4.0,142.365,1.6533,0.8417
+"Rock wool insulation, unfaced, L = 0.035 W/mK, 40 mm, 1.2 kg/m2, 30 kg/m3, Lambda=0.035 W/(m.K), ProRox LF 970 (ROCKWOOL)",30.0,4.12,3.9,38.3,1.2767,0.472
+"Rock wool insulation board for exterior cavity wall and rainscreen applications, moisture resistant, with bitumen facing or no facing, L=0.034 W/mK, R=4.3 (Rsi=0.75 m2K/W), 1-8 in (25.4-203 mm), 4.1 lb/ft3 (65 kg/m3), CAVITYROCK (Rockwool North America)",65.0,4.3,4.4,99.9,1.5369,1.2011
+"XPS insulation, (incl. A5 installation and B1 use phase impacts), R=1m2K/W, 0.681 kg/m2, StyrofoamTM Brand Ag Board, StyrofoamTM Brand CavitymateTM, StyrofoamTM Brand CladmateTM, StyrofoamTM Brand DeckmateTM, StyrofoamTM Brand DuramateTM, StyrofoamTM Brand FreezermateTM, StyrofoamTM Brand Highload, StyrofoamTM Brand Panel Core, StyrofoamTM Brand PanelmateTM, StyrofoamTM Brand PerimateTM, StyrofoamTM Brand PlazamateTM, StyrofoamTM Brand Recovermate, StyrofoamTM Brand Residential Sheathing, StyrofoamTM Brand Residing Board, StyrofoamTM Brand RoofmateTM, StyrofoamTM Brand Scoreboard, StyrofoamTM Brand SM, StyrofoamTM Brand Square Edge, StyrofoamTM Brand StyrospanTM, StyrofoamTM Brand Tongue and Groove, StyrofoamTM Brand Ultra, StyrofoamTM Brand UtilityFitTM, StyrofoamTM Brand WallmateTM, StyrofoamTM Brand Z-mateTM. (DuPont de Nemours)",24.8,5.0,5.0,24.8,1.0,7.2209
+"Acoustic rock wool insulation batts for interior walls and floors, 3 in (76.2 mm), 0.7 lb/ft2 (3.43 kg/m2), 2.8 lb/ft3 (45 kg/m3), AFB (Rockwool North America)",45.0,3.9,3.9,38.3,0.8511,0.472
+"XPS insulation, R=1m2K/W, 0.681 kg/m2, StyrofoamTM Brand Ag Board, StyrofoamTM Brand CavitymateTM, StyrofoamTM Brand CladmateTM, StyrofoamTM Brand DeckmateTM, StyrofoamTM Brand DuramateTM, StyrofoamTM Brand FreezermateTM, StyrofoamTM Brand Highload, StyrofoamTM Brand Panel Core, StyrofoamTM Brand PanelmateTM, StyrofoamTM Brand PerimateTM, StyrofoamTM Brand PlazamateTM, StyrofoamTM Brand Recovermate, StyrofoamTM Brand Residential Sheathing, StyrofoamTM Brand Residing Board, StyrofoamTM Brand RoofmateTM, StyrofoamTM Brand Scoreboard, StyrofoamTM Brand SM, StyrofoamTM Brand Square Edge, StyrofoamTM Brand StyrospanTM, StyrofoamTM Brand Tongue and Groove, StyrofoamTM Brand Ultra, StyrofoamTM Brand UtilityFitTM, StyrofoamTM Brand WallmateTM, StyrofoamTM Brand Z-mateTM. (DuPont de Nemours)",24.8,5.0,5.0,24.8,1.0,7.2209
+"XPS insulation board, (incl. A5 installation and B1 use phase impacts), R=1 m2K/W, L=0.0288 W/mK, 28.8 mm, 1.015 kg/m2, min. Density 2.2 lb/ft3 (35.241 kg/m3), FOAMULAR® NGX™ 600 (Owens Corning)",35.24,3.59,5.0,24.8,0.7037,1.5675
+"XPS insulation, 100 psi, R-10 (Rsi = 1.76 m2K/W), 2 in (50.8 mm), 2.44 kg/m2, 48.1 kg/m3, Foamular XPS (Owens Corning)",48.1,5.0,5.0,24.8,0.5156,7.2209
+"Fiberglass insulation in batts, unfaced, R-5.68 (Rsi=1 m2K/W), 1.381 kg/m2, Unfaced Fiberglass, Kraft Faced Fiberglass, Panel Deck FSK-25, FSK-25, ComfortTherm®, Cavity-SHIELD™ (Johns Manville)",12.01,4.4,4.4,12.01,1.0,0.1779
+"XPS insulation boards, closed-cell (incl. A5 installation and B1 use phase impacts), L = 0.0289 W/(m.K), R = 1 m2K/W, 28.9 mm, 1.102 kg/m2, 38.13 kg/m3, SOPRA-XPS 20 , SOPRA-XPS 25 CW , SOPRA-XPS 30 , SOPRA-XPS 35,  SOPRA-XPS 35 DC , SOPRA-XPS 40 , SOPRA-XPS 60 , SOPRA-XPS 100 (SOPREMA)",38.13,4.99,5.0,24.8,0.6504,1.5675
+"Light density mineral wool board, 1 m2K/W, 1.53 in (39 mm), 0.35 lb/ft2 (1.72 kg/m2),2.74 lg/ft3 (44.1kg/m3), Industry average US (NAIMA)",44.1,3.71,3.9,38.3,0.8685,0.472
+"XPS insulation, L=0.0276 W/mK, R=1 m2K/W, 27.6 mm 0.744 kg/m2, 26.9 kg/m3, STYROFOAM BRAND ST-100 (DuPont)",26.9,5.23,5.0,24.8,0.9219,1.5675
+"Spray polyurethane foam insulation for open cell, with HFO blowing agent (incl. A5 installation and B1 use phase impacts), 0.036 W/mK, 15.2 kg/m3 average density, Bayseal,Quadfoam, Foamsulate, Sealtite, Enertite, Sealection® 500, Agribalance®, Demilec APX® 1.2, Sealection® NM, Demilec APX® 2.0, Ultra-Thane 050, UPC 500, UPC 500 HIGH YIELD, UPC 500 MAX, GacoProFill, GacoEZSpray, GacoFireStop2, Gaco 052N,FOAM-LOK® FL400/450/500/750,  GacoInsulBarrier (Canada), JM Corbond ocSPF, JM Corbond OCX SPF, Sealite™, Sucraseal™ 0.5, EasySeal.5 (Spray Polyurethane Foam Association (SPFA), (Accella, BASF, Demilec, General Coatings, Gaco-Western, Icynene-Lapolla, Johns-Manville, NCFI Polyurethanes, SES))",15.2,4.24,3.6,8.0,0.5263,0.2061
+"Heavy density mineral wool board, 1 m2K/W, 1.34 in (34 mm), 0.86 lb/ft2 (4.2 kg/m2), 7.71 lb/ft3 (123.52 kg/m3), Industry average US (NAIMA)",123.52,4.24,4.4,99.9,0.8088,1.2011
+"Rock wool insulation batt for wood and steel framing, L=0.036 W/mK, R=22 (Rsi=3.87 m2K/W), 5.5 in (140 mm), 0.92 lb/ft2 (4.48 kg/m2), 2 lb/ft3 (32 kg/m3), COMFORTBATT R22 (Rockwool North America)",32.0,4.0,3.9,38.3,1.1969,0.472
+"Spray foam insulation, 1.02in",24.0,6.2,6.2,24.0,1.0,1.2557
+"Rock wool insulation board for curtain wall systems, L=0.034 W/mK, R=8.6 (Rsi=1.5 m2K/W), 2 in (50.8 mm), 0.7 lb/ft2 (3.25 kg/m2), 4 lb/ft3 (64 kg/m3), CURTAINROCK 40 (Rockwool North America)",64.0,4.3,4.4,99.9,1.5609,1.2011
+"Rock wool insulation, fire resistant, L=0.034 W/mK, R=16.8 (Rsi=2.96 m2K/W), 4 in (101.6 mm), 1.5 lb/ft2 (7.32 kg/m2), 4.5 lb/ft3 (72 kg/m3), ROXUL SAFE 65 (Rockwool North America)",72.0,4.2,4.4,99.9,1.3875,1.2011

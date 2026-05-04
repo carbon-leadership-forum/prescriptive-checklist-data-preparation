@@ -8,7 +8,7 @@ PROJECT_DIR := $(realpath $(lastword $(MAKEFILE_LIST)))
 PROFILE = default
 PROJECT_NAME = scripts
 PYTHON_INTERPRETER = python3
-VENV_PYTHON = venv_com\Scripts\python
+VENV_PYTHON = venv-data-prep\Scripts\python
 
 #################################################################################
 # COMMANDS                                                                      #
@@ -80,6 +80,14 @@ combine_lca_results:
 harmonize_lca_results:
 	$(VENV_PYTHON) -m scripts.lca_results.7_harmonize
 
+## baseline lca_results
+baseline_lca_results:
+	$(VENV_PYTHON) -m scripts.lca_results.8_baseline
+
+## harmonize lca_results
+complete_lca_results:
+	$(VENV_PYTHON) -m scripts.lca_results.9_complete
+
 ## Create internal_data excel
 internal_data_record:
 	$(VENV_PYTHON) -m scripts.data_record.1_internal_data
@@ -101,12 +109,15 @@ data_record_creation:
 ## run all harmonization of tally and one click entries
 lca_results_harmonization:
 	$(VENV_PYTHON) -m scripts.lca_results.1_clean
+	$(VENV_PYTHON) -m scripts.lca_results.1b_add_ex_bio
 	$(VENV_PYTHON) -m scripts.lca_results.2_add_stored_carbon
 	$(VENV_PYTHON) -m scripts.lca_results.3_map_elements
 	$(VENV_PYTHON) -m scripts.lca_results.4_map_materials
 	$(VENV_PYTHON) -m scripts.lca_results.5_map_elements_refined
 	$(VENV_PYTHON) -m scripts.lca_results.6_combine
 	$(VENV_PYTHON) -m scripts.lca_results.7_harmonize
+	$(VENV_PYTHON) -m scripts.lca_results.8_baseline
+	$(VENV_PYTHON) -m scripts.lca_results.9_complete
 
 #run all data processing of data entry templates
 metadata_preparation: 
@@ -126,12 +137,15 @@ all_data_commands:
 	$(VENV_PYTHON) -m scripts.metadata.5_combine
 	$(VENV_PYTHON) -m scripts.metadata.6_finalize
 	$(VENV_PYTHON) -m scripts.lca_results.1_clean
+	$(VENV_PYTHON) -m scripts.lca_results.1b_add_ex_bio
 	$(VENV_PYTHON) -m scripts.lca_results.2_add_stored_carbon
 	$(VENV_PYTHON) -m scripts.lca_results.3_map_elements
 	$(VENV_PYTHON) -m scripts.lca_results.4_map_materials
 	$(VENV_PYTHON) -m scripts.lca_results.5_map_elements_refined
 	$(VENV_PYTHON) -m scripts.lca_results.6_combine
 	$(VENV_PYTHON) -m scripts.lca_results.7_harmonize
+	$(VENV_PYTHON) -m scripts.lca_results.8_baseline
+	$(VENV_PYTHON) -m scripts.lca_results.9_complete
 	$(VENV_PYTHON) -m scripts.data_record.1_internal_data
 	$(VENV_PYTHON) -m scripts.data_record.2_buildings_metadata
 	$(VENV_PYTHON) -m scripts.data_record.3_lca_full_results

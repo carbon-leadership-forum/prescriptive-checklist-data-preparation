@@ -1,25 +1,24 @@
 ---
-
 column_removal_tally:
   - Revit design option
-  - Revit type
-  - Revit family name
-  - Revit material name
+  # - Revit type
+  # - Revit family name
+  # - Revit material name
   - Total instance count
   - Cumulative material area (m2)
   - Cumulative material volume (m3)
-  - Cumulative instance volume (m3)
-  - Cumulative instance area (m2)
-  - Cumulative instance length (m)
+  # - Cumulative instance volume (m3)
+  # - Cumulative instance area (m2)
+  # - Cumulative instance length (m)
   - Cumulative instance perimeter (m)
-  - Revit general category
+  # - Revit general category
   - Primary Energy Demand Total (MJ)
   - Renewable Energy Demand Total (MJ)
-  - Thickness of material (m)
+  # - Thickness of material (m)
   - Calculated Global Warming Potential Total (kgCO2eq)
   - FINAL Global Warming Potential Total (kgCO2eq)
   - Final Global Warming Potential Total (kgCO2eq)
-  - Area (m2)
+  # - Area (m2)
   - file_name_before_merge
   - Name_Tally Material
   - Stored Carbon (C02eq/kg)
@@ -48,7 +47,7 @@ column_value_replace_tally:
     Product: A1-A3
     "[A4] Transportation": A4
     Transportation: A4
-    "[B2-B5]": B4-B5 
+    "[B2-B5]": B4-B5
     "[B2-B5] Maintenance and Replacement": B4-B5
     Maintenance and Replacement: B4-B5
     "[C2-C4] End of Life": C2-C4
@@ -62,18 +61,17 @@ column_value_replace_tally:
     75: 60
     70: 60
 
-
 column_removal_oneclick:
-  - User input
-  - Unit
-  - Comment
+  # - User input
+  # - Unit
+  # - Comment
   - Construction
   - Transformation process
   - Years of replacement
   - file_name_before_merge
-  - Imported label
+  # - Imported label
   - class
-  - Thickness in
+  # - Thickness in
   - "Unnamed: 27"
   - Column1
   - Column2
@@ -82,9 +80,8 @@ column_removal_oneclick:
   - Design Name
   - GC3 Classification System_All
   - "Unnamed: 28"
-  - Thickness mm
+  # - Thickness mm
   - Element ID
-
 
 column_rename_oneclick:
   "Acidification kg SO₂e": Acidification Potential
@@ -109,7 +106,7 @@ column_rename_oneclick:
 
 column_value_replace_oneclick:
   Life Cycle Stage:
-    B2-B5: B4-B5 
+    B2-B5: B4-B5
     B3: B4-B5
     C1-C4: C2-C4
     C2: C2-C4

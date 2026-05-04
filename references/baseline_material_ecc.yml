@@ -1,0 +1,76 @@
+baseline_material_ecc:
+  - mat_group: Aluminum
+    mat_type: Aluminum sheet
+    ecc: 3.82
+  - mat_group: Applied fireproofing
+    mat_type: Spray applied cementitious
+    ecc: 0.388
+  - mat_group: Concrete
+    mat_type: Ready mix LW 3000
+    ecc: 0.381
+  - mat_group: Concrete
+    mat_type: Ready mix LW 4000
+    ecc: 0.420
+  - mat_group: Concrete
+    mat_type: Ready mix LW 5000
+    ecc: 0.459
+  - mat_group: Concrete
+    mat_type: Ready mix NW 2500
+    ecc: 0.105
+  - mat_group: Concrete
+    mat_type: Ready mix NW 3000
+    ecc: 0.114
+  - mat_group: Concrete
+    mat_type: Ready mix NW 4000
+    ecc: 0.133
+  - mat_group: Concrete
+    mat_type: Ready mix NW 5000
+    ecc: 0.159
+  - mat_group: Concrete
+    mat_type: Ready mix NW 6000
+    ecc: 0.161
+  - mat_group: Concrete
+    mat_type: Ready mix NW 8000
+    ecc: 0.186
+  - mat_group: Steel
+    mat_type: Cold formed steel framing
+    ecc: 2.4400
+  - mat_group: Steel
+    mat_type: Decking
+    ecc: 2.3300
+  - mat_group: Steel
+    mat_type: Hollow structural sections HSS
+    ecc: 1.9900
+  - mat_group: Steel
+    mat_type: Hot-rolled sections
+    ecc: 1.0800
+  - mat_group: Steel
+    mat_type: Open web joists
+    ecc: 1.4300
+  - mat_group: Steel
+    mat_type: Plate
+    ecc: 1.7300
+  - mat_group: Steel
+    mat_type: Rebar and reinforcement
+    ecc: 0.8540
+  - mat_group: Wood and composites
+    mat_type: Cross laminated timber CLT
+    ecc: 0.2705
+  - mat_group: Wood and composites
+    mat_type: Glue laminated timber GLT
+    ecc: 0.2587
+  - mat_group: Wood and composites
+    mat_type: Laminated strand lumber LSL
+    ecc: 0.4020
+  - mat_group: Wood and composites
+    mat_type: Laminated veneer lumber LVL
+    ecc: 0.6588
+  - mat_group: Wood and composites
+    mat_type: Oriented strand board OSB
+    ecc: 0.3919
+  - mat_group: Wood and composites
+    mat_type: Softwood framing
+    ecc: 0.1372
+  - mat_group: Wood and composites
+    mat_type: Softwood plywood
+    ecc: 0.4525
