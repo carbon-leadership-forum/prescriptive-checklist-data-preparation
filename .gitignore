@@ -1,5 +1,4 @@
 # Byte-compiled / optimized / DLL files
-/data/
 
 __pycache__/
 *.py[cod]
@@ -132,10 +131,13 @@ data/data_record/internal/*
 
 data/lca_results/raw/*
 data/lca_results/cleaned/*
+data/lca_results/ex_bio/*
 data/lca_results/combined/*
 data/lca_results/csc/*
 data/lca_results/element_mapped/*
 data/lca_results/harmonized/*
+data/lca_results/baselined/*
+data/lca_results/completed/*
 data/lca_results/material_mapped/*
 data/lca_results/ref_ele_mapped/*
 !data/lca_results/raw/.gitkeep
