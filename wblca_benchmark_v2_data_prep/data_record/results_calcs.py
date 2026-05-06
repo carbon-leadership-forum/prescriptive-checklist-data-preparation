@@ -132,10 +132,8 @@ def handle_nulls(output_w_new_cols: pd.DataFrame) -> pd.DataFrame:
     output_w_new_cols["oneclick_resource_type"] = output_w_new_cols[
         "oneclick_resource_type"
     ].fillna("NULL")
-    lca_full_results_logger.info(
-        "Handed null situations for: Stored Biogenic Carbon, Cat_Mat_1,\
-            tally_revit_building_element, oneclick_resource_type."
-    )
+    lca_full_results_logger.info("Handed null situations for: Stored Biogenic Carbon, Cat_Mat_1,\
+            tally_revit_building_element, oneclick_resource_type.")
 
     return output_w_new_cols
 
@@ -193,7 +191,7 @@ def write_full_lca_results_to_excel(
 
         final_output.to_excel(writer, sheet_name="lca_full_results", index=False)
 
-        format_lca_full_results(writer=writer)
+        # format_lca_full_results(writer=writer)
         lca_full_results_logger.info(
             "lca_full_results has beeen saved to %s", public_dataset_directory
         )

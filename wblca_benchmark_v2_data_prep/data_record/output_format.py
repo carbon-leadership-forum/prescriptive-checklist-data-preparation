@@ -108,21 +108,19 @@ def format_lca_full_results(writer: pd.ExcelWriter) -> None:
     three_dec_format = workbook.add_format({"num_format": "0.000"})
     # five_dec_format = workbook.add_format({'num_format': '0.00000'})
 
-    # inv_mass
-    lca_full_results.set_column(11, 11, None, one_dec_format)
-    # inv_stored_carbon
-    lca_full_results.set_column(12, 12, None, one_dec_format)
+    # R value
+    lca_full_results.set_column(11, 11, None, three_dec_format)
+    # inv_mass, inv_stored_carbon
+    lca_full_results.set_column(14, 17, None, three_dec_format)
     # gwp
-    lca_full_results.set_column(13, 13, None, one_dec_format)
-    # ep
-    lca_full_results.set_column(14, 14, None, two_dec_format)
-    # ap
-    lca_full_results.set_column(15, 15, None, two_dec_format)
-    # sfp
-    lca_full_results.set_column(16, 16, None, three_dec_format)
-    # nred
     lca_full_results.set_column(18, 18, None, one_dec_format)
-    # mui_gfa
-    lca_full_results.set_column(19, 19, None, three_dec_format)
-    # mui_cfa
-    lca_full_results.set_column(20, 20, None, three_dec_format)
+    # ep
+    lca_full_results.set_column(19, 19, None, two_dec_format)
+    # ap
+    lca_full_results.set_column(20, 20, None, two_dec_format)
+    # sfp
+    lca_full_results.set_column(21, 21, None, three_dec_format)
+    # nred
+    lca_full_results.set_column(22, 23, None, one_dec_format)
+    # mui_gfa, mui_cfa, clf_b_gwps
+    lca_full_results.set_column(24, 27, None, three_dec_format)

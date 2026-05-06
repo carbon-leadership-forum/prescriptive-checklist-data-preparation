@@ -67,33 +67,33 @@ def baseline():
         original_df=baselined_oneclick, baseline_material_yaml_config=baseline_material_ecc
     )
 
-    # baselined_tally_for_analysis = baselined_tally[
-    #     [
-    #         "CLF Model ID",
-    #         "Thickness of material (m)",
-    #         "Cumulative instance area (m2)",
-    #         "Cat_Mat_2",
-    #         "Cat_Mat_3",
-    #         "Life Cycle Stage",
-    #         "Service Life",
-    #         "Global Warming Potential_Ebio",
-    #         "Mass Total (kg)",
-    #         "MQ_1",
-    #         "MQ_2",
-    #         "R_value_thickness_in",
-    #         "R_value",
-    #         "clf_b_thickness_in",
-    #         "clf_b_mass",
-    #         "clf_b_gwp",
-    #     ]
-    # ]
+    baselined_tally_for_analysis = baselined_tally[
+        [
+            "CLF Model ID",
+            "Thickness of material (m)",
+            "Cumulative instance area (m2)",
+            "Cat_Mat_2",
+            "Cat_Mat_3",
+            "Life Cycle Stage",
+            "Service Life",
+            "Global Warming Potential_Ebio",
+            "Mass Total (kg)",
+            "MQ_1",
+            "MQ_2",
+            "R_value_thickness_in",
+            "R_value",
+            "clf_b_thickness_in",
+            "clf_b_mass",
+            "clf_b_gwp",
+        ]
+    ]
 
     # write to csv
     utils.write_to_csv(baselined_tally, baselined_write_path, "tally_baselined")
     utils.write_to_csv(baselined_oneclick, baselined_write_path, "oneclick_baselined")
-    # utils.write_to_csv(
-    #     baselined_tally_for_analysis, baselined_write_path, "tally_baselined_reduced"
-    # )
+    utils.write_to_csv(
+        baselined_tally_for_analysis, baselined_write_path, "tally_baselined_reduced"
+    )
 
 
 if __name__ == "__main__":
